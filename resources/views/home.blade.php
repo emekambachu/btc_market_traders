@@ -108,7 +108,7 @@ Home
         <div class="container">
             <!-- Section Title Starts -->
             <div class="row text-center">
-                <h2 class="title-head">About <span>Us</span></h2>
+                <h2 class="title-head">About <span>Us Test 1</span></h2>
                 <div class="title-head-subtitle">
                     <p>a commercial website that lists wallets, exchanges and other bitcoin related info</p>
                 </div>
