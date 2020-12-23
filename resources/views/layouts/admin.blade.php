@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="{{ asset('custom/style.css') }}">
 
     @yield('top-assets')
+
 </head>
 
 <body>
