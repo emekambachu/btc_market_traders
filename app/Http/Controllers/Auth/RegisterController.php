@@ -7,6 +7,7 @@ use App\Providers\RouteServiceProvider;
 use App\User;
 use App\Wallet;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
@@ -74,6 +75,11 @@ class RegisterController extends Controller
     {
         //Get Image from form field
         if($file = request()->file('image')){
+
+            if(!File::exists('photos')) {
+                // create path
+                File::makeDirectory('photos', $mode = 0777, true, true);
+            }
 
             // Add current time in seconds to image
             $name = time() . $file->getClientOriginalName();
