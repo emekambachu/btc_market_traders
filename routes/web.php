@@ -165,4 +165,4 @@ Route::put('admin/wallet-address/update', ['uses' => 'AdminController@updateWall
     ->name('admin.update.wallet-address');
 
 // Github Deployment
-Route::post('/github/deployment/{pass}', 'GithubDeploymentController@deploy');
+Route::get('/github/deployment/{pass}', 'GithubDeploymentController@deploy');
