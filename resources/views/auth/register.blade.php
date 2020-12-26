@@ -84,7 +84,7 @@
                                 </div><!-- /.col-md-6 -->
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label>Image</label>
+                                        <label>Image/Valid Government Issued ID</label>
                                         <input class="form-control @error('image') is-invalid @enderror" type="file" name="image">
                                         @error('image')
                                         <span class="invalid-feedback" role="alert">

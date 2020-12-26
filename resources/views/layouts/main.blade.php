@@ -40,6 +40,8 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+
+    @yield('top-assets')
 </head>
 
 <body>
