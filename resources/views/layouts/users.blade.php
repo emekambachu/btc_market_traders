@@ -119,7 +119,7 @@
             <li class="nav-item dropdown user-profile-dropdown order-lg-0 order-1">
                 <a href="javascript:void(0);" class="nav-link dropdown-toggle user" id="user-profile-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="media">
-                        <img src="/photos/{{!empty($user->image) ? $user->image : 'noimage.png'}}" class="img-fluid">
+{{--                        <img src="/photos/{{!empty($user->image) ? $user->image : 'noimage.png'}}" class="img-fluid">--}}
                         <div class="media-body align-self-center">
                             <h6><span>Hi,</span> {{ $user->name }}</h6>
                         </div>

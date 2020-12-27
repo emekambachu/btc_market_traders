@@ -1,11 +1,11 @@
 
-<img src="{{ asset('digital_trading_options_logo.png') }}" width="100">
+<img src="{{ asset('main/images/btcmarkettraders_logo.png') }}" width="100">
 
 <h3>Dear {{ $name }},</h3>
 
 <p>
     Your Investment was successful.<br>
-    Once your payment has been approved, your waller would be funded.<br><br>
+    Once your payment has been approved, your wallet would be funded.<br><br>
 </p>
 
 <p><strong>Below are your payment details:</strong></p>

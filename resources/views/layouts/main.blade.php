@@ -95,7 +95,7 @@
                         <li>
                             <h6>+5.26%</h6><span>24 hour price</span></li>
                         <li>
-                            <h6>12.820 BTC</h6><span>24 hour volume</span></li>
+                            <h6>$27,791</h6><span>24 hour volume</span></li>
                         <li>
                             <h6>2,231,775</h6><span>active traders</span></li>
                         <li>
