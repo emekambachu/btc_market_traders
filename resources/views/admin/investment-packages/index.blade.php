@@ -41,7 +41,7 @@
                                         @foreach($packages as $package)
                                             <tr>
                                                 <td>{{ $package->name }}</td>
-                                                <td>${{ $package->min }} to ${{ $package->min }}</td>
+                                                <td>${{ $package->min }} to ${{ $package->max }}</td>
                                                 <td>%{{ $package->referral_bonus }}</td>
                                                 <td>%{{ $package->monthly_profit }}</td>
                                                 <td>{{ $package->days_turnover }}</td>
